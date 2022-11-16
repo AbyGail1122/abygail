@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inschrijfformulier</title>
+</head>
+<body>
+<h1><caption> Tandartsafspraak </caption></h1>
+    <p>Wie er ook in je mond tuurt, al onze tandartsen en mondhygiënisten werken nauwkeurig en hygiënisch. Ze gaan regelmatig naar een bij- of nascholing om goed op de hoogte te zijn van de laatste technieken en ontwikkelingen. Zo garanderen we jou altijd de allerbeste mondzorg.</p>
+        <img src="https://media.istockphoto.com/photos/female-dentist-examining-boys-teeth-picture-id532336279?k=20&m=532336279&s=612x612&w=0&h=Qe_63BIyYlTx4YioSPi9En26xlExfxmRpSafcpR6A8I=" style="weidth:300px; height:200px;">
+        <img src="https://www.dentist.amsterdam/cache/images/adobestock_197373009rs_820x530_adaptiveResize.jpg" style="weidth:300px; height:200px;">
+         <img src="https://live.staticflickr.com/1151/1128193325_232df09bd2_b.jpg" style= "weidth:300px; height:200px;">
+      <form
+id="contactform"
+action="https://formspree.io/f/mpzndrwq"
+method="post">
+<fieldset>
+<legend>Persoonlijke gegevens</legend><br>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam"><br><br>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders <br><br>
+<label for="adres">Adres:</label>
+<input type="text" id="adres" name="adres"><br><br>
+<label for="postcode">Postcode:</label>
+<input type="text" id="postcode" name="postcode"><br><br>
+<label for=" woonplaats">Woonplaats:</label>
+<input type="text" id="woonplaats" name="woonplaats"><br><br>
+<label for="profielfoto">Selecteer een profielfoto</label>
+<input type="file" id="profielfoto" name="profielfoto"><br><br>
+</fieldset>
+<fieldset>
+<legend>Beschrijving van de klachten</legend><br>
+<b> Selecteer uw symptonen</b><br>
+<input type="checkbox" name="onderwerpen" value="ja">rood, slap, gezwollen tandvlees
+<input type="checkbox" name="onderwerpen" value="ja">slechte adem
+<input type="checkbox" name="onderwerpen" value="ja">dikke wang
+<input type="checkbox" name="onderwerpen" value="ja">hevige kiespijn <br><br>
+<tr>
+<td><b>Selecteer uw fotobestand</b></td>
+<td><input type="file" name="document"></td></tr>
+</fieldset>
+<fieldset>
+<legend>Toelichting van de klachten</legend><br>
+<tr>
+<td><b>Schrijf uw toelichting</b></td><br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea></td></tr>
+<tr>
+<td><b> Selecteer uw gewenste afspraakdatum</b><br>
+<input type="date" name="datum" max="2080-12-31"><br><br>
+</td></tr>
+</fieldset><br>
+<input type="submit" value="Verzend">
+</form>
+</body>
+</html>
